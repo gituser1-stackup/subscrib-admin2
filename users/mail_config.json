@@ -1,0 +1,45 @@
+{
+   "mails":{
+      "mail_server":"mail.stackuptech.com",
+      "mail_user":"Stackup Subscription",
+      "mail_password":"Subscr1pt10n@",
+      "mail_server_out_port":"587",
+      "mail_from":"subscription_info@stackuptech.com"
+   },
+   "activate": {
+      "subject": "Stackup - Subscription Account Activated",
+      "message": "/activate_notify.html",
+      "type": null,
+      "mail_info": null
+   },
+   "trialNotify": {
+      "subject": "Trial Activation of your Subscription",
+      "message": "/trialgrace_notify.html",
+      "type": "Trial",
+      "mail_info": "<b>Thanks for getting in touch with Stackup.</b>\n        <br/>\n        <br/>\n        Here by we share the Subscription Services Information.\n        <br/>\n        <br/>"
+   },
+   "licenceNotify": {
+      "subject": "Licence Activation of your Subscription",
+      "message": "/licence_notify.html",
+      "type": "Licence",
+      "mail_info": "<b>Thanks for getting in touch with Stackup.</b>\n        <br/>\n        <br/>\n        Here by we share the Subscription Services Information.\n        <br/>\n        <br/>"
+   },
+   "graceNotify": {
+      "subject": "Grace Activation of your Subscription",
+      "message": "/trialgrace_notify.html",
+      "type": "Grace",
+      "mail_info": "<b>Thanks for getting in touch with Stackup.</b>\n        <br/>\n        <br/>\n        Here by we share the Subscription Services Information.\n        <br/>\n        <br/>"
+   },
+   "expireLicenceNotify": {
+      "subject": "Licence Expiry Alert",
+      "message": "/licence_notify.html",
+      "type": "Licence",
+      "mail_info": "\n        We wish to remind you that your subscription is nearing expiry.\n        <br/>\n        <br/>\n        Details are provided below.\n        <br/>\n        <br/>"
+   },
+   "expireTrialNotify": {
+      "subject": "Licence(Trial) Expiry Alert",
+      "message": "/trialgrace_notify.html",
+      "type": "Trial",
+      "mail_info": "\n        We wish to remind you that your subscription is nearing expiry.\n        <br/>\n        <br/>\n        Details are provided below.\n        <br/>\n        <br/>"
+   }
+}
